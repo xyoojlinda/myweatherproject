@@ -43,24 +43,18 @@ function search(event) {
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
-//3
-function convertCel(event) {
-	event.preventDefault();
-	let link = document.querySelector("#degree");
-	link.innerHTML = "🌞 7°C";
+//convert temp 
+function displayFar (event){
+  event.preventDefault();
+  let tempElement = document.querySelector("#temperature");
+  let farTemp = (tempElement.innerHTML *9)/5+32;
+  tempElement.innerHTML = Math.round(farTemp);
 }
 
-let celTemp = document.querySelector("#celcius");
-celTemp.addEventListener("click", convertCel);
+let farLink = document.querySelector("#fahrenheit");
+farLink.addEventListener("click", displayFar);
 
-function convertFar(event) {
-	event.preventDefault();
-	let link = document.querySelector("#degree");
-	link.innerHTML = "🌞 60°F";
-}
-
-let farTemp = document.querySelector("#fahrenheit");
-farTemp.addEventListener("click", convertFar);
+///
 
 function showWeather(response) {
 	let cityElement = document.querySelector("h1");

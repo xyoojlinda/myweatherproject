@@ -122,8 +122,9 @@ ul {
 .temperature-format {
 	position: relative;
 	left: 200px;
-	top: 25px;
+	top: 5px;
 	padding: 20px;
+	font-size: 20px;
 }
 .degree {
 	position: relative;
