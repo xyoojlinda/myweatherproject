@@ -1,0 +1,106 @@
+body {
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+	background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+
+	border: 1px solid rgb(165, 12, 101);
+	padding: 30px;
+	margin: 70px;
+	top: 70px;
+}
+
+h1,
+h2 {
+	position: relative;
+	top: 60px;
+}
+h1 {
+	color: rgb(33, 33, 151);
+	font-size: 60px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+h3,
+p {
+	text-align: center;
+	position: relative;
+	top: -70px;
+	right: 50px;
+}
+
+h3 {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 30px;
+	color: grey;
+}
+
+h4 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: rgb(94, 15, 94);
+}
+
+p {
+	font-size: 50px;
+	color: rgb(94, 15, 94);
+}
+
+.day-Monday,
+.day-Teusday,
+.day-Wednesday,
+.day-Thursday,
+.day-Friday {
+	color: blue;
+	font-size: 40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 1px solid blueviolet;
+	text-align: center;
+	position: relative;
+	bottom: 30px;
+}
+
+ul {
+	font-size: 35px;
+	font-weight: lighter;
+	list-style-type: none;
+	position: relative;
+	left: 800px;
+	top: -400px;
+	padding: 20px;
+}
+
+.sun-Icon,
+.cloud-Icon,
+.sunrain-Icon,
+.bolt-Icon {
+	font-size: 65px;
+	position: relative;
+	left: 10px;
+	padding: 20px;
+}
+
+.sun-Icon {
+	color: yellow;
+}
+
+.cloud-Icon {
+	color: rgb(64, 68, 85);
+}
+
+.sunrain-Icon {
+	color: rgb(95, 211, 219);
+	position: relative;
+	left: 10px;
+}
+
+.bolt-Icon {
+	color: #fff;
+	position: relative;
+	left: 10px;
+}
