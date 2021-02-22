@@ -106,10 +106,10 @@ ul {
 }
 
 .github {
-	text-align: left;
 	font-size: 15px;
 	font-weight: lighter;
-	right: -500px;
+	position: relative;
+	left: -200px;
 }
 .current-weather-icon,
 .current-temperature {
