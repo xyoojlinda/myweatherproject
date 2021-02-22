@@ -104,11 +104,11 @@ ul {
 	left: 10px;
 }
 
-.netlify,
 .github {
-	text-align: center;
+	text-align: left;
 	font-size: 15px;
 	font-weight: lighter;
+	right: 10px;
 }
 .current-weather-icon,
 .current-temperature {
