@@ -4,9 +4,10 @@ body {
 	background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
 
 	border: 1px solid rgb(165, 12, 101);
-	padding: 30px;
-	margin: 70px;
-	top: 70px;
+	padding: 100px;
+	margin: 100px;
+	top: 100px;
+	max-width: 700px;
 }
 
 h1,
@@ -29,7 +30,7 @@ h3,
 p {
 	text-align: center;
 	position: relative;
-	top: -70px;
+	top: -90px;
 	right: 50px;
 }
 
@@ -57,9 +58,8 @@ p {
 .day-Thursday,
 .day-Friday {
 	color: blue;
-	font-size: 40px;
+	font-size: 30px;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	border: 1px solid blueviolet;
 	text-align: center;
 	position: relative;
 	bottom: 30px;
@@ -70,8 +70,8 @@ ul {
 	font-weight: lighter;
 	list-style-type: none;
 	position: relative;
-	left: 800px;
-	top: -400px;
+	left: 350px;
+	top: -650px;
 	padding: 20px;
 }
 
