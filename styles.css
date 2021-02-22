@@ -105,7 +105,8 @@ ul {
 	left: 10px;
 }
 
-.netlify {
+.netlify,
+.github {
 	text-align: center;
 	font-size: 20px;
 	font-weight: lighter;
