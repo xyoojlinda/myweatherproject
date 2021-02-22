@@ -104,3 +104,9 @@ ul {
 	position: relative;
 	left: 10px;
 }
+
+.netlify {
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+}
