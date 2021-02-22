@@ -62,7 +62,7 @@ p {
 	font-size: 20px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	position: relative;
-	bottom: 30px;
+	bottom: 10px;
 }
 
 ul {
@@ -83,6 +83,7 @@ ul {
 	position: relative;
 	left: -20px;
 	padding: 20px;
+	top: 30px;
 }
 
 .sun-Icon {

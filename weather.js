@@ -62,8 +62,6 @@ function convertFar(event) {
 let farTemp = document.querySelector("#fahrenheit");
 farTemp.addEventListener("click", convertFar);
 
-/////////hmwrk 5////////////
-
 function showWeather(response) {
 	let cityElement = document.querySelector("h1");
 	cityElement.innerHTML = `${response.data.name}`;
@@ -74,8 +72,8 @@ function showWeather(response) {
 	//console.log(response.data);
 	document.querySelector("#humid").innerHTML = response.data.main.humidity;
 	document.querySelector("#windy").innerHTML = Math.round(
-		response.data.wind.speed
-	);
+    response.data.wind.speed
+   	);
 }
 
 function searchCity(city) {
@@ -115,3 +113,5 @@ function getPosition(event) {
 
 let geolocationButton = document.querySelector("#geolocation");
 geolocationButton.addEventListener("click", getPosition);
+
+
