@@ -48,6 +48,14 @@ h4 {
 	color: rgb(94, 15, 94);
 }
 
+.update {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: rgb(94, 15, 94);
+	position: relative;
+	top: 60px;
+}
+
 p {
 	font-size: 50px;
 	color: rgb(94, 15, 94);
@@ -71,7 +79,7 @@ ul {
 	list-style-type: none;
 	position: relative;
 	left: 350px;
-	top: -450px;
+	top: -500px;
 	padding: 20px;
 }
 
