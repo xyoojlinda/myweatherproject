@@ -5,7 +5,7 @@ let h2 = document.querySelector("h2");
 let currentmillisecond = today.getMilliseconds();
 
 let days = ["Sun", "Mon", "Teus", "Weds", "Thurs", "Fri", "Sat"];
-let currentDay = days[5];
+let currentDay = days[2];
 
 let currentYear = today.getFullYear();
 let currentDate = today.getDate();
